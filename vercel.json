@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/buy", "destination": "/" },
+    { "source": "/compare", "destination": "/" },
+    { "source": "/like", "destination": "/" },
+    { "source": "/remind-later", "destination": "/" },
+    { "source": "/vendor/:id", "destination": "/" },
+    { "source": "/recent-orders", "destination": "/" },
+    { "source": "/.*", "destination": "/" }
+  ]
+}
